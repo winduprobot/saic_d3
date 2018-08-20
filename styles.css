@@ -1,0 +1,28 @@
+svg {
+  background-color: antiquewhite;
+}
+
+.pin {
+  transition: all .5s;
+  /* transition-timing-function: linear; */
+  background-image: url('pinBase.png');
+}
+
+.pin text {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.initPosition {
+  transform: translateY(-10px);
+}
+
+.bigger {
+  transform: translateY(-10px);
+  transition: all .5s;
+}
+
+.bigger text {
+  opacity: 1;
+  transition: all .5s;
+}
